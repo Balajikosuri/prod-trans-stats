@@ -6,7 +6,7 @@ GET     http://localhost:8080/api/get-transactions-count
 
 ###
 #all transactions
-GET http://localhost:8080/api/transactions?search=9&page=1&perPage=10
+GET http://localhost:8080/api/transactions?search=''&page=&perPage=10
 
 ###
 # statistics
@@ -22,5 +22,5 @@ GET http://localhost:8080/api/pie-chart/1
 ###
 #TODO product-transactions-statistics-barChart-pieChart
 
-GET http://localhost:8080/api/product-transactions-statistics-barChart-pieChart/
+GET http://localhost:8080/api/product-transactions-statistics-barChart-pieChart/3
 
