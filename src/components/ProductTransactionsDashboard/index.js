@@ -66,9 +66,7 @@ class ProductTransactionsDashboard extends Component {
     const { selectedMonthNum, searchInputValue, perPage, currentPage } =
       this.state;
     const response = await axios.get(
-      `https://product-transactions.onrender.com/api/product-transactions-statistics-barChart-pieChart/${selectedMonthNum}?search=${
-        !!searchInputValue && searchInputValue + ""
-      }&page=${currentPage}&perPage=${perPage}`
+      `https://product-transactions.onrender.com/api/product-transactions-statistics-barChart-pieChart/${selectedMonthNum}?search=${searchInputValue}&page=${currentPage}&perPage=${perPage}`
     );
     await this.setState({ apiStatus: apiConstants.success });
 
