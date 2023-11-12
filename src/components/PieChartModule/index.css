@@ -1,0 +1,9 @@
+.pie-chart-variables {
+    width: min(30%, 200px);
+    font-weight: bold;
+}
+
+.pie-chart-variables p {
+    padding: 5px 35px;
+    font-size: 20px;
+}
